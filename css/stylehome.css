@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a{
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+main{
+    padding: 1rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.banner{
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.scmp.com%2Fnews%2Fchina%2Fscience%2Farticle%2F3261368%2Fchinese-scientists-create-water-battery-can-hold-much-more-energy-lithium-cells-study&psig=AOvVaw3ymvlmJtlUDj8Wm4mPjvzQ&ust=1718386965245000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCigraQ2YYDFQAAAAAdAAAAABAJ');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 3rem;
+}
+
+.featured-products{
+    margin-bottom: 2rem;
+}
+
+.featured-products h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.product{
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0 0, 0,1);
+    text-align: center;
+    width: calc(33% - 2rem);
+}
+
+.product{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
