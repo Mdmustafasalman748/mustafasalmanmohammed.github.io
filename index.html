@@ -3,84 +3,139 @@ Student Number: C0942876
 Term Project 1 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kitchen Mixers Home</title>
+  <title>Kitchen Mixers Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <div id="container">
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="specials.html">Specials</a></li>
+        <li><a href="specials.html">Training</a></li>
+        <li><a href="specials.html">Media</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div class="mix-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
 
-        <header>
-            <h1>Kitchen Mixers</h1>
-
-            <a href="index.html"><img src="image/mixerlogo.png" alt="MasterMixers logo" height="220" width="297"></a>
-        </header>
-
-        <nav>
-            <p><a href="index.html">Home</a> &nbsp; &#9475; &nbsp;
-                <a href="about.html">About Us</a> &nbsp; &#9475; &nbsp;
-                <a href="team.html">Team</a> &nbsp; &#9475; &nbsp;
-                <a href="specials.html">Specials</a> &nbsp; &#9475; &nbsp;
-                <a href="training.html">Training</a> &nbsp; &#9475; &nbsp;
-                <a href="media.html">Media</a> &nbsp; &#9475; &nbsp;
-                <a href="faws.html">Faqs</a> &nbsp; &#9475; &nbsp;
-                <a href="contact.html">Contact Us</a>
-            </p>
-
-        </nav>
-
-        <main>
-            <!-- Main content goes here-->
-
-            <div id="intro">
-
-                <p>Welcome to Kitchen Mixers, your premier destination for top-tier mixing solutions designed to elevate
-                    your
-                    culinary and beverage creations. At Kitchen Mixers, we are dedicated to providing you with the tools
-                    and
-                    expertise needed to achieve perfection in every blend. Whether you're a professional chef, a home
-                    baker, or
-                    a passionate mixologist, our range of high-performance mixers promises to meet your every need with
-                    precision and efficiency.</p>
-
-                <p>Our commitment to excellence extends beyond our products. At Kitchen Mixers, we understand that
-                    innovation and
-                    quality are essential to your kitchen endeavors. That's why we continually strive to push the
-                    boundaries of
-                    mixing technology, ensuring that each mixer we offer embodies the latest advancements in design and
-                    functionality. From sleek, ergonomic designs to powerful motor capabilities, our mixers are
-                    engineered to
-                    deliver superior performance and reliability.</p>
-
-                <p>Moreover, Kitchen Mixers is more than just a brand - we're a community of passionate individuals
-                    dedicated to
-                    the art of mixing. Whether you're looking for inspiration, troubleshooting tips, or expert advice,
-                    our
-                    website serves as a hub of knowledge and creativity. Explore our extensive collection of recipes,
-                    instructional videos, and customer testimonials to discover how MasterMixers can transform your
-                    culinary
-                    experiences. Join us in celebrating the joy of mixing and unleash your creativity in the kitchen
-                    with
-                    Kitchen Mixers by your side.</p>
-
-            </div>
-
-        </main>
-
-        <footer>
-
-            <p>&copy; 2024 Mixers. All rights Reserved.</p>
-            <p><a href="mailto:KitchenMixers.net">KitchenMixers.net</a></p>
-
-        </footer>
-
+    <div class="mix-panel">
+      <h1><b>KICTHEN MIXERS</b></h1>
     </div>
 
+    <!-- Slideshow -->
+    <div class="mix-container">
+      <div class="mix-display-container mySlides">
+        <img src="Images/aboutus.jpg" style="width:100%">
+        <div class="mix-display-topleft mix-container mix-padding-32">
+          <span class="mix-white mix-padding-large mix-animate-bottom">Mixers</span>
+        </div>
+      </div>
+      <div class="mix-display-container mySlides">
+        <img src="Images/pic5.jpg" style="width:100%">
+        <div class="mix-display-middle mix-container mix-padding-32">
+          <span class="mix-white mix-padding-large mix-animate-bottom">Mixers</span>
+
+        </div>
+      </div>
+      <div class="mix-display-container mySlides">
+        <img src="Images/our mission.jpg" style="width:100%">
+        <div class="mix-display-topright mix-container mix-padding-32">
+          <span class="mix-white mix-padding-large mix-animate-bottom">Mixers</span>
+
+        </div>
+      </div>
+
+      <div class="mix-container mix-dark-grey mix-padding mix-xlarge">
+        <div class="mix-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left mix-hover-text-teal"></i></div>
+        <div class="mix-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right mix-hover-text-teal"></i></div>
+
+        <div class="mix-center">
+          <span class="mix-tag demodots mix-border mix-transparent mix-hover-white" onclick="currentDiv(1)"></span>
+          <span class="mix-tag demodots mix-border mix-transparent mix-hover-white" onclick="currentDiv(2)"></span>
+          <span class="mix-tag demodots mix-border mix-transparent mix-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="mix-row mix-container">
+      <div class="mix-center mix-padding-64">
+        <span class="mix-xlarge mix-bottombar mix-border-dark-grey mix-padding-16">What We Offer</span>
+      </div>
+      <div class="mix-col l4 m6 mix-light-grey mix-container mix-padding-16">
+        <h3>Design</h3>
+        <p>Welcome to Kitchen Mixers, your premier destination for top-tier mixing solutions designed to elevate your
+          culinary and beverage creations. At Kitchen Mixers, we are dedicated to providing you with the tools and
+          expertise needed to achieve perfection in every blend. Whether you're a professional chef, a home baker, or a
+          passionate mixologist, our range of high-performance mixers promises to meet your every need with precision
+          and efficiency.</p>
+      </div>
+
+      <div class="mix-col l4 m6 mix-grey mix-container mix-padding-16">
+        <h3>Branding</h3>
+        <p>Our commitment to excellence extends beyond our products. At Kitchen Mixers, we understand that innovation
+          and quality are essential to your kitchen endeavors. That's why we continually strive to push the boundaries
+          of mixing technology, ensuring that each mixer we offer embodies the latest advancements in design and
+          functionality. From sleek, ergonomic designs to powerful motor capabilities, our mixers are engineered to
+          deliver superior performance and reliability.</p>
+      </div>
+
+      <div class="mix-col l4 m6 mix-dark-grey mix-container mix-padding-16">
+        <h3>Consultation</h3>
+        <p>Moreover, Kitchen Mixers is more than just a brand - we're a community of passionate individuals dedicated to
+          the art of mixing. Whether you're looking for inspiration, troubleshooting tips, or expert advice, our website
+          serves as a hub of knowledge and creativity. Explore our extensive collection of recipes, instructional
+          videos, and customer testimonials to discover how MasterMixers can transform your culinary experiences. Join
+          us in celebrating the joy of mixing and unleash your creativity in the kitchen with Kitchen Mixers by your
+          side.</p>
+      </div>
+
+      <div class="mix-row-padding" id="specials">
+        <div class="mix-center mix-padding-64">
+          <h3>Special Offers</h3>
+          <p>Don't miss out on our exclusive special offers! Grab these limited-time deals on our best kitchen mixers
+            and
+            accessories.</p>
+        </div>
+
+
+        <footer>
+          <p>&copy; 2024 Mixers. All rights Reserved.</p>
+          <p>KitchenMixers.net</p>
+          <p>Mustafa Salman Mohammed_C0942876</p>
+        </footer>
+
+        <script src="scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+          $(document).ready(function () {
+            $('.mobile-menu').click(function () {
+              $('.nav-links').toggleClass('active');
+              $('.mobile-menu').toggleClass('active');
+            });
+          });
+
+        </script>
 </body>
 
 </html>
