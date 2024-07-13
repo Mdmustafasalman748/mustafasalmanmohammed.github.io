@@ -1,8 +1,8 @@
 /*Student Name: Mustafa Salman Mohammed
 Studnet Id: C0942876
-File Name: style.css*/
+File Name: training.css*/
 
-/*Style rules for body*/
+/*Style rules for body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -85,62 +85,52 @@ main div div {
     margin-bottom: 20px;
 }
 
-/*Styles for specials section*/
-.special {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.content {
+    max-width: 1200px;
+    margin: auto;
 }
 
-.special h2 {
+section {
+    margin-top: 20px;
+}
+
+h1 {
     color: #333;
-    font-size: 1.5em;
 }
 
-.special p {
-    color: #555;
-}
-
-.special img {
+table {
     width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin-top: 10px;
-    border-radius: 10px;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-/*Styles for reasons section*/
-.reasons {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-.reasons h2 {
-    color: #333;
-    font-size: 1.5em;
-}
-
-.reasons ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.reasons li {
-    background-color: #f9f9f9;
-    margin: 10px 0;
+th,
+td {
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #555;
+    text-align: center;
+    border: 1px solid #ccc;
 }
 
+th {
+    background-color: #333333;
+    color: #fff;
+}
 
-/*Style rules for footer content*/
+tbody tr:nth-child(even) {
+    background-color: #afabab;
+}
+
+tbody tr:hover {
+    background-color: #5f5e60;
+}
+
+/* Style rules for footer content*/
 footer {
     text-align: center;
     padding: 20px 0;

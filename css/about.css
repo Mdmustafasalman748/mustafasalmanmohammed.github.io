@@ -1,0 +1,294 @@
+/*Student Name: Mustafa Salman Mohammed
+Studnet Id: C0942876
+File Name: about.css*/
+
+/*Style rules for body*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Style rules for header*/
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+/*Style rules for navigation area*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/*Style rules for main content*/
+main {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+main h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main h3 {
+    color: #333;
+}
+
+main img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main div div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about,
+.story,
+.reasons,
+.guarantee {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h1,
+.story h2,
+.reasons h2,
+.guarantee h2 {
+    color: #333;
+}
+
+.about p,
+.story p,
+.guarantee p,
+.reasons ol {
+    color: #555;
+}
+
+.reasons ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*Style rules for footer content*/
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*Style rules for Mobile*/
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .about,
+    .story,
+    .reasons,
+    .guarantee {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .about h1,
+    .story h2,
+    .reasons h2,
+    .guarantee h2 {
+        font-size: 1.5em;
+    }
+
+    .about p,
+    .story p,
+    .guarantee p,
+    .reasons ol {
+        font-size: 1em;
+    }
+
+    .reasons ol {
+        padding-left: 15px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 0.7em;
+    }
+}
+
+/*Style rules for Tablet*/
+@media (min-width: 481px) and (max-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .about,
+    .story,
+    .reasons,
+    .guarantee {
+        padding: 20px;
+        margin: 15px 0;
+    }
+
+    .about h1,
+    .story h2,
+    .reasons h2,
+    .guarantee h2 {
+        font-size: 1.8em;
+    }
+
+    .about p,
+    .story p,
+    .guarantee p,
+    .reasons ol {
+        font-size: 1.1em;
+    }
+
+    .reasons ol {
+        padding-left: 20px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 0.75em;
+    }
+}
+
+/*Style rules for Desktop*/
+@media (min-width: 769px) {
+    nav {
+        flex-direction: row;
+    }
+
+    nav a {
+        margin: 0 15px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .about,
+    .story,
+    .reasons,
+    .guarantee {
+        padding: 25px;
+        margin: 20px 0;
+    }
+
+    .about h1,
+    .story h2,
+    .reasons h2,
+    .guarantee h2 {
+        font-size: 2em;
+    }
+
+    .about p,
+    .story p,
+    .guarantee p,
+    .reasons ol {
+        font-size: 1.2em;
+    }
+
+    .reasons ol {
+        padding-left: 25px;
+    }
+
+    footer {
+        padding: 20px;
+        font-size: 0.8em;
+    }
+}
