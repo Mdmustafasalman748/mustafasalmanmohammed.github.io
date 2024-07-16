@@ -150,3 +150,33 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        margin-bottom: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .content h1 {
+        font-size: 1.5em;
+    }
+
+    #training-table {
+        font-size: 0.8em;
+    }
+}
