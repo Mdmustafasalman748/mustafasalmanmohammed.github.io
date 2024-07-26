@@ -143,10 +143,17 @@ label {
 }
 
 input[type="text"],
-input[type="email"],
+input[type="email"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
 textarea,
 select {
-    width: 100%;
+    width: 95%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -160,14 +167,14 @@ button:hover {
 /* Tablet Viewport: Style rule for form element */
 
 form {
-    width: 0%;
+    width: 70%;
     margin: 0 auto;
 }
 
 /* Desktop Viewport: Style rules for form elements */
 
 form {
-    width: 0%;
+    width: auto;
 }
 
 .form-grid {
