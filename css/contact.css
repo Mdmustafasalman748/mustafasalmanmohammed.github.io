@@ -160,6 +160,7 @@ button:hover {
 /* Tablet Viewport: Style rule for form element */
 
 form {
+    align-items: center;
     width: 70%;
     margin: 0 auto;
 }
@@ -167,6 +168,7 @@ form {
 /* Desktop Viewport: Style rules for form element */
 
 form {
+    align-items: center;
     width: auto;
 }
 
