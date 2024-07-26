@@ -1,0 +1,91 @@
+<!-- Name: Mustafa Salman Mohammed
+Student Number: C0942876
+Term Project 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Mixers Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header>
+            <h1>Kitchen Mixers</h1>
+            <a href="index.html"><img src="img/km-logo.png" alt="Kitchen Mixers logo"></a>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> &nbsp; &#9475; &nbsp;</li>
+                <li><a href="about.html">About Us</a> &nbsp; &#9475; &nbsp;</li>
+                <li><a href="team.html">Team</a> &nbsp; &#9475; &nbsp;</li>
+                <li><a href="specials.html">Specials</a> &nbsp; &#9475; &nbsp;</li>
+                <li><a href="training.html">Training</a> &nbsp; &#9475; &nbsp;</li>
+                <li><a href="media.html">Media</a> &nbsp; &#9475; &nbsp;</li>
+                <li><a href="contact.html">Contact Us</a> &nbsp; &#9475; &nbsp;</li>
+                <li><a href="faqs.html">Faqs</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div id="contact">
+
+                <h2>Contact us today.</h2>
+                <h4 class="mobile tel-link"><a href="tel:8145559608">Call us:(814) 555-9608</a></h4>
+                <h4 class="tablet-desktop tel-num">(814) 555-9608</h4>
+                <h4>Email us:<a href="mailto:KitchenMixers.net" class="contact-email-link">KitchenMixers.net</a>
+                </h4>
+                <h4>Visit us at:1275 Channel Center Street, Boston, MA 02210</h4>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.162144346857!2d-71.05399723888908!3d42.34566835573774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7dc2b67e7b%3A0x36ec93427cd9c5f1!2sChannel%20Center%20St%2C%20Boston%2C%20MA%2002210%2C%20USA!5e0!3m2!1sen!2sca!4v1716349209464!5m2!1sen!2sca"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            </div>
+
+            <form action="/submit_form" method="post">
+                <fieldset>
+                    <legend><strong>Contact Information</strong></legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="inquiry">Type of Inquiry:</label>
+                    <select id="inquiry" name="inquiry">
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Customer Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Mixers. All rights Reserved.</p>
+            <p><a href="mailto:KitchenMixers.net">KitchenMixers.net</a></p>
+            <p>Mustafa Salman Mohammed_C0942876</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
