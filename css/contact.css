@@ -181,11 +181,6 @@ form {
     grid-gap: 20px;
 }
 
-.btn {
-    grid-column: 1 / span 3;
-}
-
-
 /*Style rules for footer content*/
 footer {
     text-align: center;
