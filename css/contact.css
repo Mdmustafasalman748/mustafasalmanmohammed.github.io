@@ -120,35 +120,32 @@ main div div {
     margin-left: 10%;
 }
 
-fieldset {
-    border: none;
-    padding: 0;
+#form {
+    margin-top: 2%;
+    background-color: #f2f2f2;
+    padding: 2%;
 }
 
-legend {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+#form h2 {
+    text-align: center;
+}
+
+/* Style rules for form elements */
+fieldset,
+input,
+select,
+textarea {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea,
-select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-textarea {
-    resize: vertical;
+    padding-top: 3%;
 }
 
 button {
