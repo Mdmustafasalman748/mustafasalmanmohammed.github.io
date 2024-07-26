@@ -51,32 +51,30 @@ Term Project 1 -->
                     referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
             </div>
 
-            <div id="form">
-                <form class="form-grid" action="/submit_form" method="post">
-                    <fieldset>
-                        <legend><strong>Contact Information</strong></legend>
+            <form action="/submit_form" method="post">
+                <fieldset>
+                    <legend><strong>Contact Information</strong></legend>
 
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                        <label for="inquiry">Type of Inquiry:</label>
-                        <select id="inquiry" name="inquiry">
-                            <option value="general">General Inquiry</option>
-                            <option value="support">Customer Support</option>
-                            <option value="feedback">Feedback</option>
-                        </select>
+                    <label for="inquiry">Type of Inquiry:</label>
+                    <select id="inquiry" name="inquiry">
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Customer Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
 
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
 
-                        <button type="submit">Submit</button>
-                        <button type="reset">Reset</button>
-                    </fieldset>
-                </form>
-            </div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
 
         </main>
 
