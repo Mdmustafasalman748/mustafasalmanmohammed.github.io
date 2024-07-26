@@ -86,18 +86,26 @@ main div div {
     margin-bottom: 20px;
 }
 
-#audio1,
-#audio2 {
-    margin: 0 2%;
+.video-section,
+.audio-section {
+    margin-bottom: 30px;
 }
 
-#audio1 #audio2 {
-    width: 29%;
-    float: left;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 2%;
-    margin-right: 2%;
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.video-container,
+.audio-container {
+    margin-bottom: 20px;
+}
+
+video,
+audio {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 /*Style rules for footer content*/
