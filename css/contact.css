@@ -162,6 +162,29 @@ button:hover {
     background-color: #555;
 }
 
+/* Tablet Viewport: Style rule for form element */
+
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Desktop Viewport: Style rules for form elements */
+
+form {
+    width: auto;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.btn {
+    grid-column: 1 / span 3;
+}
+
 
 /*Style rules for footer content*/
 footer {
