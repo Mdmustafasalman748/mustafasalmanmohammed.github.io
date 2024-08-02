@@ -1,8 +1,8 @@
-/*Student Name: Mustafa Salman Mohammed
-Studnet Id: C0942876
-File Name: style.css*/
+/* Student Name: Mustafa Salman Mohammed
+   Student ID: C0942876
+   File Name: style.css */
 
-/*Style rules for body*/
+/* Style rules for body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,15 +10,16 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Container styling */
 #container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/*Style rules for header*/
+/* Style rules for header */
 header {
     text-align: center;
     padding: 20px 0;
@@ -35,7 +36,7 @@ header a img {
     margin-top: 10px;
 }
 
-/*Style rules for navigation area*/
+/* Style rules for navigation area */
 nav ul {
     list-style: none;
     padding: 0;
@@ -43,7 +44,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
 }
 
@@ -57,7 +58,7 @@ nav ul li a:hover {
     color: #007BFF;
 }
 
-/*Style rules for main content*/
+/* Style rules for main content */
 main {
     text-align: center;
     padding: 20px;
@@ -75,7 +76,8 @@ main h3 {
 }
 
 main img {
-    width: 200px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -85,62 +87,7 @@ main div div {
     margin-bottom: 20px;
 }
 
-/*Styles for specials section*/
-.special {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.special h2 {
-    color: #333;
-    font-size: 1.5em;
-}
-
-.special p {
-    color: #555;
-}
-
-.special img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
-/*Styles for reasons section*/
-.reasons {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.reasons h2 {
-    color: #333;
-    font-size: 1.5em;
-}
-
-.reasons ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.reasons li {
-    background-color: #f9f9f9;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #555;
-}
-
-
-/*Style rules for footer content*/
+/* Styles for footer content */
 footer {
     text-align: center;
     padding: 20px 0;
