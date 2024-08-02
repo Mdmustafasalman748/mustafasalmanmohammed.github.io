@@ -98,6 +98,14 @@ main div div {
     margin-top: 0;
 }
 
+/* Style rules for footer content*/
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
 footer p {
     margin: 5px 0;
 }
