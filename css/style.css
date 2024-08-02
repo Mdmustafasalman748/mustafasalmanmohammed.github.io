@@ -107,3 +107,25 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
