@@ -1,9 +1,8 @@
 /*Student Name: Mustafa Salman Mohammed
 Studnet Id: C0942876
-File Name: team.css*/
+File Name: style.css*/
 
 /*Style rules for body*/
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -72,11 +71,11 @@ main h2 {
 }
 
 main h3 {
-    color: #333;
+    color: #007BFF;
 }
 
 main img {
-    width: 300px;
+    width: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -86,8 +85,62 @@ main div div {
     margin-bottom: 20px;
 }
 
+/*Styles for specials section*/
+.special {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-/* Styles for footer content */
+.special h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.special p {
+    color: #555;
+}
+
+.special img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/*Styles for reasons section*/
+.reasons {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reasons h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.reasons ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reasons li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #555;
+}
+
+
+/*Style rules for footer content*/
 footer {
     text-align: center;
     padding: 20px 0;
