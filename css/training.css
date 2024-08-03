@@ -159,6 +159,7 @@ footer a:hover {
 
     .mobile {
         display: block;
+        /* Ensure mobile view content is displayed */
     }
 }
 
