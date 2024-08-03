@@ -79,8 +79,7 @@ main h2 {
     margin-bottom: 20px;
 }
 
-.video-section,
-.audio-section {
+.video-section {
     margin-bottom: 30px;
 }
 
@@ -89,13 +88,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-.video-container,
-.audio-container {
+.video-container {
     margin-bottom: 20px;
 }
 
-video,
-audio {
+video {
     width: 100%;
     max-width: 100%;
     height: auto;
