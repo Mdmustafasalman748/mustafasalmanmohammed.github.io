@@ -153,7 +153,12 @@ footer a:hover {
     }
 
     #training-table {
-        font-size: 0.8em;
+        display: none;
+        /* Hide table on mobile devices */
+    }
+
+    .mobile {
+        display: block;
     }
 }
 
@@ -179,6 +184,11 @@ footer a:hover {
     #training-table {
         font-size: 0.9em;
     }
+
+    .mobile {
+        display: none;
+        /* Hide mobile view content on tablets and desktops */
+    }
 }
 
 /* Media Queries for Desktop */
@@ -202,5 +212,10 @@ footer a:hover {
 
     #training-table {
         font-size: 1em;
+    }
+
+    .mobile {
+        display: none;
+        /* Hide mobile view content on desktops */
     }
 }
