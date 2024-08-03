@@ -68,12 +68,6 @@ main h1 {
     margin-bottom: 20px;
 }
 
-main h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
 .faq-item {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -82,8 +76,21 @@ main h2 {
     padding: 1em;
 }
 
-.faq-item h2 {
-    margin-top: 0;
+.faq-question {
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 /* Style rules for footer content */
@@ -109,7 +116,7 @@ footer a:hover {
 
 /* Responsive Styles */
 
-/* Mobile styles */
+/* Style rule for Mobile*/
 @media (max-width: 480px) {
     nav ul li {
         display: block;
@@ -126,7 +133,7 @@ footer a:hover {
     }
 }
 
-/* Tablet styles */
+/* Styles rule for Tablet */
 @media (min-width: 481px) and (max-width: 768px) {
     nav ul li {
         display: inline;
@@ -143,7 +150,7 @@ footer a:hover {
     }
 }
 
-/* Desktop styles */
+/* Styles rule for Desktop*/
 @media (min-width: 769px) {
     nav ul li {
         display: inline;
