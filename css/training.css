@@ -1,8 +1,8 @@
-/*Student Name: Mustafa Salman Mohammed
-Studnet Id: C0942876
-File Name: training.css*/
+/* Student Name: Mustafa Salman Mohammed
+   Student ID: C0942876
+   File Name: training.css */
 
-/*Style rules for body */
+/* Style rules for body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,15 +10,16 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Container styling */
 #container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/*Style rules for header*/
+/* Style rules for header */
 header {
     text-align: center;
     padding: 20px 0;
@@ -35,7 +36,7 @@ header a img {
     margin-top: 10px;
 }
 
-/*Style rules for navigation area*/
+/* Style rules for navigation area */
 nav ul {
     list-style: none;
     padding: 0;
@@ -43,7 +44,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
 }
 
@@ -57,7 +58,7 @@ nav ul li a:hover {
     color: #007BFF;
 }
 
-/*Style rules for main content*/
+/* Style rules for main content */
 main {
     text-align: center;
     padding: 20px;
@@ -75,7 +76,8 @@ main h3 {
 }
 
 main img {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -126,7 +128,7 @@ tbody tr:hover {
     background-color: #5f5e60;
 }
 
-/* Style rules for footer content*/
+/* Style rules for footer content */
 footer {
     text-align: center;
     padding: 20px 0;
@@ -146,7 +148,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
 
 /* Media Queries for Mobile */
 @media only screen and (max-width: 600px) {
@@ -174,5 +175,53 @@ footer a:hover {
 
     #training-table {
         font-size: 0.8em;
+    }
+}
+
+/* Media Queries for Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    .content h1 {
+        font-size: 1.75em;
+    }
+
+    #training-table {
+        font-size: 0.9em;
+    }
+}
+
+/* Media Queries for Desktop */
+@media only screen and (min-width: 1025px) {
+    #container {
+        width: 80%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .content h1 {
+        font-size: 2em;
+    }
+
+    #training-table {
+        font-size: 1em;
     }
 }
