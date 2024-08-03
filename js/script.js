@@ -1,14 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const faqs = document.querySelectorAll('.faq');
+    const faqQuestions = document.querySelectorAll('.faq-question');
 
-    faqs.forEach(faq => {
-        faq.querySelector('.faq-question').addEventListener('click', () => {
-            const answer = faq.querySelector('.faq-answer');
-            if (answer.style.display === 'none' || answer.style.display === '') {
-                answer.style.display = 'block';
-            } else {
-                answer.style.display = 'none';
-            }
+    faqQuestions.forEach(function (question) {
+        question.addEventListener('click', function () {
+            const faqItem = this.parentElement;
+            faqItem.classList.toggle('active');
         });
     });
 });
