@@ -82,10 +82,6 @@ main h2 {
     padding: 1em;
 }
 
-.faq-item h2 {
-    margin-top: 0;
-}
-
 .faq-question {
     cursor: pointer;
     color: #007BFF;
