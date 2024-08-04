@@ -1,8 +1,8 @@
-/*Student Name: Mustafa Salman Mohammed
-Studnet Id: C0942876
-File Name: contact.css*/
+/* Student Name: Mustafa Salman Mohammed
+   Student ID: C0942876
+   File Name: faq.css */
 
-/* Style rules for body */
+/* General Style rules for body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -29,6 +29,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 2rem;
 }
 
 header a img {
@@ -40,6 +41,7 @@ header a img {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     text-align: center;
 }
 
@@ -60,9 +62,15 @@ nav ul li a:hover {
 
 /* Style rules for main content */
 main {
-    text-align: center;
     padding: 20px;
     margin: 20px 0;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5rem;
 }
 
 main h2 {
@@ -71,174 +79,49 @@ main h2 {
     margin-bottom: 20px;
 }
 
-main h4 {
-    margin: 10px 0;
-}
-
-.tel-link {
-    background-color: #404040;
-    padding: 2%;
+.container {
+    max-width: 800px;
     margin: 0 auto;
-    width: 80%;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.tel-link a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-    display: block;
-}
-
-.hours {
-    margin-left: 10%;
-}
-
-#contact iframe {
-    width: 100%;
-    height: 300px;
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#contact h4 a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-#contact h4 a:hover {
-    text-decoration: underline;
-}
-
-/* Style rules for form elements */
-fieldset {
-    border: 1px solid #ccc;
+    background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-legend {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-textarea,
-select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-button {
-    padding: 10px 15px;
+.faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background-color: #f9f9f9;
     border: none;
-    border-radius: 3px;
-    background-color: #007BFF;
-    color: #fff;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 1em;
-    margin: 5px;
+    outline: none;
 }
 
-button:hover {
-    background-color: #0056b3;
+.faq-answer {
+    display: none;
+    padding: 10px;
 }
 
-/* Responsive Styles */
-
-/* Mobile styles */
-@media (max-width: 480px) {
-    nav ul li {
-        display: block;
-        margin: 5px 0;
-    }
-
-    header a img {
-        width: 80px;
-    }
-
-    .tel-link {
-        width: 90%;
-    }
-
-    .hours {
-        margin-left: 0;
-    }
-
-    #contact iframe {
-        height: 200px;
-    }
-
-    form {
-        width: 90%;
-        margin: 0 auto;
-    }
+.faq-answer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
 }
 
-/* Tablet styles */
-@media (min-width: 481px) and (max-width: 768px) {
-    nav ul li {
-        display: inline;
-        margin: 0 5px;
-    }
-
-    header a img {
-        width: 90px;
-    }
-
-    .tel-link {
-        width: 85%;
-    }
-
-    #contact iframe {
-        height: 250px;
-    }
-
-    form {
-        width: 80%;
-        margin: 0 auto;
-    }
+.faq-answer ul {
+    margin-left: 20px;
+    list-style-type: lower-alpha;
 }
 
-/* Desktop styles */
-@media (min-width: 769px) {
-    nav ul li {
-        display: inline;
-        margin: 0 10px;
-    }
-
-    form {
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .form-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-    }
-}
-
+/* Style rules for footer content */
 footer {
     text-align: center;
     padding: 20px 0;
@@ -257,4 +140,79 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Show faq-answer when faq-question is clicked */
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    header a img {
+        width: 80px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    main h1 {
+        font-size: 1.25rem;
+    }
+
+    .faq-question {
+        font-size: 14px;
+    }
+
+    .faq-answer p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    nav ul li {
+        display: inline;
+        margin: 0 5px;
+    }
+
+    header a img {
+        width: 90px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    main h1 {
+        font-size: 1.25rem;
+    }
+
+    .faq-question {
+        font-size: 15px;
+    }
+
+    .faq-answer p {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 769px) {
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
+    }
 }
