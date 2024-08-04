@@ -18,6 +18,19 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Styles for the tab-desk class */
+.tab-desk {
+    font-family: 'Font Awesome 5 Free';
+    /* Font Awesome 5 Free is used for the icons */
+    font-weight: 900;
+    /* Required for Font Awesome icons */
+    margin-right: 10px;
+    /* Space between the icon and the text */
+    display: inline-block;
+    font-size: 1.5rem;
+    /* Adjust the size as needed */
+}
+
 
 /*Style rules for header*/
 header {
@@ -29,21 +42,6 @@ header {
 
 header h1 {
     margin: 0;
-}
-
-.table-desk {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 1rem;
-    text-align: left;
-}
-
-.table-desk caption {
-    caption-side: top;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 10px;
 }
 
 header a img {
