@@ -2,7 +2,7 @@
    Student ID: C0942876
    File Name: team.css */
 
-/* Style rules for body */
+/*Style rules for body*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,16 +10,15 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Container styling */
 #container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style rules for header */
+/*Style rules for header*/
 header {
     text-align: center;
     padding: 20px 0;
