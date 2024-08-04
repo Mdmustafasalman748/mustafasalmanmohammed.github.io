@@ -1,4 +1,4 @@
-/*Student Name: Mustafa Salman Mohammed
+/* Student Name: Mustafa Salman Mohammed
    Student ID: C0942876
    File Name: training.css */
 
@@ -13,7 +13,6 @@ body {
 /* Container styling */
 #container {
     width: 90%;
-    max-width: 1200px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -46,7 +45,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
 }
 
@@ -62,22 +61,12 @@ nav ul li a:hover {
 
 /* Style rules for main content */
 main {
-    text-align: center;
     padding: 20px;
     margin: 20px 0;
 }
 
 main h1 {
-    margin-bottom: 20px;
-}
-
-main p {
-    margin-bottom: 30px;
-}
-
-main h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
@@ -139,10 +128,8 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Styles */
-
 /* Media Queries for Mobile */
-@media (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     #container {
         width: 100%;
         padding: 10px;
@@ -152,20 +139,20 @@ footer a:hover {
         font-size: 2em;
     }
 
-    nav ul li {
-        display: block;
+    nav ul {
         margin-bottom: 10px;
     }
 
-    header a img {
-        width: 80px;
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
     }
 
     .content h1 {
         font-size: 1.25em;
     }
 
-    main table {
+    #training-table {
         display: none;
         /* Hide table on mobile devices */
     }
@@ -177,7 +164,7 @@ footer a:hover {
 }
 
 /* Media Queries for Tablet */
-@media (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
     #container {
         width: 100%;
         padding: 15px;
@@ -188,19 +175,14 @@ footer a:hover {
     }
 
     nav ul li {
-        display: inline;
         margin: 0 5px;
-    }
-
-    header a img {
-        width: 90px;
     }
 
     .content h1 {
         font-size: 1.5em;
     }
 
-    main table {
+    #training-table {
         font-size: 0.9em;
     }
 
@@ -211,14 +193,17 @@ footer a:hover {
 }
 
 /* Media Queries for Desktop */
-@media (min-width: 769px) {
+@media only screen and (min-width: 1025px) {
     #container {
         width: 80%;
         padding: 20px;
     }
 
+    header h1 {
+        font-size: 3em;
+    }
+
     nav ul li {
-        display: inline;
         margin: 0 10px;
     }
 
@@ -226,7 +211,7 @@ footer a:hover {
         font-size: 2em;
     }
 
-    main table {
+    #training-table {
         font-size: 1em;
     }
 
