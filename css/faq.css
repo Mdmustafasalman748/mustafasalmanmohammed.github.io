@@ -122,11 +122,6 @@ h1 {
     list-style-type: lower-alpha;
 }
 
-/* Show faq-answer when faq-question is clicked */
-.faq-item.active .faq-answer {
-    display: block;
-}
-
 /* Style rules for footer content */
 footer {
     text-align: center;
@@ -148,51 +143,27 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Styles */
 
-/* Style rules for Mobile */
-@media (max-width: 480px) {
-    nav ul li {
-        display: block;
-        margin: 5px 0;
-    }
+/* Show faq-answer when faq-question is clicked */
+.faq-item.active .faq-answer {
+    display: block;
+}
 
-    header a img {
-        width: 80px;
-    }
-
-    .faq-item {
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
         padding: 10px;
-        margin: 0.5em 0;
-    }
-}
-
-/* Style rules for Tablet */
-@media (min-width: 481px) and (max-width: 768px) {
-    nav ul li {
-        display: inline;
-        margin: 0 5px;
     }
 
-    header a img {
-        width: 90px;
+    h1 {
+        font-size: 24px;
     }
 
-    .faq-item {
-        padding: 15px;
-        margin: 1em 0;
-    }
-}
-
-/* Style rules for Desktop */
-@media (min-width: 769px) {
-    nav ul li {
-        display: inline;
-        margin: 0 10px;
+    .faq-question {
+        font-size: 14px;
     }
 
-    .faq-item {
-        padding: 20px;
-        margin: 1em 0;
+    .faq-answer p {
+        font-size: 12px;
     }
 }
