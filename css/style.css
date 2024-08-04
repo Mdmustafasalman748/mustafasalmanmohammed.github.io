@@ -18,6 +18,41 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Style rules for Mobile Viewport*/
+
+/*Hide tab-desk class*/
+.tab-desk {
+    display: none;
+}
+
+aside {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #373684;
+    text-shadow: 3px 3px 10px #8280cb;
+}
+
+figure {
+    position: relative;
+    max-width: 275px;
+    margin: 2% auto;
+    border: 8px solid #373684;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(55, 54, 132, 0.7);
+    color: #fff;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 /*Style rules for header*/
 header {
     text-align: center;
