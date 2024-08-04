@@ -41,8 +41,8 @@ header a img {
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -148,7 +148,16 @@ footer a:hover {
 }
 
 /* Responsive design */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    header a img {
+        width: 80px;
+    }
+
     .container {
         padding: 10px;
     }
@@ -163,5 +172,47 @@ footer a:hover {
 
     .faq-answer p {
         font-size: 12px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    nav ul li {
+        display: inline;
+        margin: 0 5px;
+    }
+
+    header a img {
+        width: 90px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    main h1 {
+        font-size: 1.25rem;
+    }
+
+    .faq-question {
+        font-size: 15px;
+    }
+
+    .faq-answer p {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 769px) {
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
     }
 }
