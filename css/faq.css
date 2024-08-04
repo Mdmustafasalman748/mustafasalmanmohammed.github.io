@@ -2,7 +2,7 @@
 Studnet Id: C0942876
 File Name: faq.css*/
 
-/* General Style rules for body */
+/* Style rules for body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -29,6 +29,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 2rem;
 }
 
 header a img {
@@ -40,6 +41,7 @@ header a img {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     text-align: center;
 }
 
@@ -65,7 +67,10 @@ main {
 }
 
 main h1 {
+    text-align: center;
     margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5rem;
 }
 
 main h2 {
@@ -81,12 +86,6 @@ main h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
 }
 
 .faq-item {
@@ -143,20 +142,28 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
 /* Show faq-answer when faq-question is clicked */
 .faq-item.active .faq-answer {
     display: block;
 }
 
 /* Responsive design */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    header a img {
+        width: 80px;
+    }
+
     .container {
         padding: 10px;
     }
 
-    h1 {
-        font-size: 24px;
+    main h1 {
+        font-size: 1.25rem;
     }
 
     .faq-question {
@@ -165,5 +172,47 @@ footer a:hover {
 
     .faq-answer p {
         font-size: 12px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    nav ul li {
+        display: inline;
+        margin: 0 5px;
+    }
+
+    header a img {
+        width: 90px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    main h1 {
+        font-size: 1.25rem;
+    }
+
+    .faq-question {
+        font-size: 15px;
+    }
+
+    .faq-answer p {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 769px) {
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
     }
 }
